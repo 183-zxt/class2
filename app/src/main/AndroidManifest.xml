@@ -14,18 +14,37 @@
         <activity android:name=".MainActivity" />
 
         <activity android:name=".Ch10Activity1">
+
             <intent-filter>
+
                 <action android:name="com.inspur.action2" />
+
+
+
                 <category android:name="android.intent.category.DEFAULT" />
+
+
+
                 <data
+
                     android:host="inspur.com"
+
                     android:scheme="abc" />
+
             </intent-filter>
+
         </activity>
+
         <activity android:name=".Ch10Activity2" />
+
+
+
         <receiver
+
             android:name=".MyReceiver"
+
             android:enabled="true"
+
             android:exported="true">
 
             <intent-filter>
@@ -52,7 +71,13 @@
 
 
 
-        <activity android:name=".Ch12Activity1"></activity>
+        <activity android:name=".Ch12Activity1">
+
+
+
+
+
+        </activity>
 
 
 
@@ -79,6 +104,8 @@
 
 
         </activity>
+
+
 
         <activity android:name=".Ch13Activity1">
 
